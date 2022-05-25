@@ -14,6 +14,7 @@ import { FashionComponent } from './fashion/fashion.component';
 import { CartComponent } from './cart/cart.component';
 import { GroceryComponent } from './grocery/grocery.component';
 import { SearchComponent } from './search/search.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SearchComponent } from './search/search.component';
     FashionComponent,
     CartComponent,
     GroceryComponent,
-    SearchComponent
+    SearchComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
